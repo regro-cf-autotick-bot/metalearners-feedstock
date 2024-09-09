@@ -1,5 +1,5 @@
 {% set name = "metalearners" %}
-{% set version = "0.10.0" %}
+{% set version = "0.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/metalearners-{{ version }}.tar.gz
-  sha256: 2bb5e85a320a42112750a629f8def27fa618b5dea881778b290cecb1fee7ffee
+  sha256: 9d4000bfe5e1240bb984aef304c3e6f09a0f206694770e624818fd330e811fa8
 
 build:
   noarch: python
